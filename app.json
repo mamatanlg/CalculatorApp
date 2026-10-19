@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "Calculator",
+    "slug": "calculator-app",
+    "version": "1.0.0",
+    "orientation": "default",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "web": {
+      "bundler": "metro",
+      "name": "Calculator",
+      "shortName": "Calculator"
+    }
+  }
+}
