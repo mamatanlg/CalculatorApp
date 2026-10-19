@@ -266,7 +266,13 @@ export default function App() {
   }
 
   useEffect(() => {
-    if (typeof window === "undefined") return undefined;
+    if (
+      typeof window === "undefined" ||
+      typeof window.addEventListener !== "function" ||
+      typeof window.removeEventListener !== "function"
+    ) {
+      return undefined;
+    }
     function onKeyDown(event) {
       if (event.ctrlKey || event.metaKey || event.altKey) return;
       if (/^[0-9.+\-*/()%]$/.test(event.key)) {
