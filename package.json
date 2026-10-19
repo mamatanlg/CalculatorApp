@@ -7,15 +7,18 @@
   "scripts": {
     "start": "expo start",
     "web": "expo start --web",
+    "phone": "expo start --go --tunnel",
     "test": "node --test"
   },
   "dependencies": {
-    "expo": "~58.0.14",
-    "expo-clipboard": "~58.0.3",
-    "react": "19.3.0",
-    "react-dom": "19.3.0",
-    "react-native": "0.88.0",
+    "expo": "~57.0.30",
+    "expo-clipboard": "~57.0.2",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-native": "0.86.3",
     "react-native-web": "^0.21.4"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@expo/ngrok": "^4.1.3"
+  }
 }

@@ -1,6 +1,7 @@
 # Calculator
 
 A responsive calculator web app built with Expo, React Native, and React Native Web.
+The project uses Expo SDK 57 for compatibility with Expo Go versions that support SDK 57.
 
 ## Author
 
@@ -23,7 +24,20 @@ A responsive calculator web app built with Expo, React Native, and React Native 
    npx expo start --web
    ```
 
-Expo opens the calculator in your browser. No phone, Expo Go, or emulator is needed.
+Expo opens the calculator in your browser. No phone or emulator is needed for web testing.
+
+## Run in Expo Go
+
+1. Install Expo Go on your phone and connect it to the internet.
+2. In a terminal opened in this project folder, run:
+
+   ```sh
+   npm run phone
+   ```
+
+3. Scan the QR code displayed in the terminal with Expo Go.
+
+The tunnel connection lets your phone load the project even if it cannot connect directly to your computer's local network.
 
 ## Tests
 
