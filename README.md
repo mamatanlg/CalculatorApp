@@ -21,7 +21,7 @@ The project uses Expo SDK 57 for compatibility with Expo Go versions that suppor
 4. Start Expo Web:
 
    ```sh
-   npx start
+   npm start
    ```
 
 Expo opens the calculator in your browser. No phone or emulator is needed for web testing.
